@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body{
+    background-color: dimgray;
+}
+.title{
+    border-radius: 15px;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid dimgray;
+    height: 1800px;
+    width: 800px;
+}
+
+h1{
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+#one{
+    font-size: 20px;
+    text-align: center;
+}
+
+#two,#five,#four,#sirui{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-indent: 2em;
+}
+h3{
+    color: blueviolet;
+}
+a{
+    font-size: 10px;
+
+    color: darkcyan;
+    text-decoration: none;
+    white-space: pre;
+}
+.en1{
+    text-indent: 2em;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 378424 */
+    src: url('//at.alicdn.com/t/font_ijy2hmqd7fhcl3di.eot');
+    src: url('//at.alicdn.com/t/font_ijy2hmqd7fhcl3di.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_ijy2hmqd7fhcl3di.woff') format('woff'),
+    url('//at.alicdn.com/t/font_ijy2hmqd7fhcl3di.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_ijy2hmqd7fhcl3di.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: iconfont;
+
+    font-size: 50px;
+
+}
+.iconfont:hover{
+    color: red;
+}
+#q,#w,#e{
+    font-size: 15px;
+}
+#a,#s,#d,#f,#g{
+    font-size: 10px;
+    color: darkcyan;
+}
+.title1{
+    margin: 0 auto;
+    border: 0 solid dimgray;
+    height: 1800px;
+    width: 700px;
+}
+#qwe{
+    word-spacing: 30px;
+}
+.cssc65ce42ed19ecb{
+    font-family:'ljshc65ce42ed19ecb';
+}
+.cssc65d8cb5619ecb{
+    font-family:'ljshc65d8cb5619ecb';
+}
+.cssc662218e719ecb{
+    font-family:'ljshc662218e719ecb';
+}
+.cssc6623d54c19ecb{
+    font-family:'ljshc6623d54c19ecb';
+}
+.cssc6629628019ecb{
+    font-family:'ljshc6629628019ecb';
+}
+.cssc662be32119ecb{
+    font-family:'ljshc662be32119ecb';
+
+}
+.cssc662d8a7819ecb{
+    font-family:'ljshc662d8a7819ecb';
+}
+.cssc662e80af19ecb{
+    font-family:'ljshc662e80af19ecb';
+}
+.cssc6630c9e319ecb{
+    font-family:'ljshc6630c9e319ecb';
+}

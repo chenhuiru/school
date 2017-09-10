@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body,h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/*设置浏览器兼容*/
+.clearFloate{
+    zoom: 1;
+}
+/*清除浮动后产生的影响的固定格式*/
+.clearFloate:after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+
+.box{
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    font-size: 0px;
+    text-align: center;
+    line-height: 80px;
+}
+.box>li{
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.box>li>a{
+    color: white;
+    font-size: 30px;
+}
+.box>li:hover{
+    background-color: #d3d3d3;
+    border-left:2px solid orangered;
+}
+.box>li:hover .box2{
+    display: block;
+}
+.box2{
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+
+    width: 200px;
+    background-color: black;
+
+}
+.box2>li{
+    display: block;
+    font-size: 30px;
+}
+.box2>li>a{
+    color: white;
+}
+.box2>li:hover{
+    color: orangered;
+    background-color: lightgrey;
+    border-left:2px solid orangered;
+}
+
+
+
+
+.box3{
+    margin: 400px auto;
+    width: 1000px;
+    height: 80px;
+    font-size: 0px;
+    text-align: center;
+    line-height: 80px;
+}
+.box3>li{
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+.box3>li>a{
+    color: white;
+    font-size: 30px;
+}
+.box3>li:hover{
+    color: orangered;
+    background-color: #d3d3d3;
+    border-left:2px solid orangered;
+}
+.box3>li:hover li{
+    opacity: 1;
+
+}
+.box4{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+
+    width: 200px;
+    background-color: black;
+
+    max-height:0px;
+    min-width:0px;
+
+}
+.box4 li{
+    opacity: 0;
+}
+.box4 li a{
+    font-size: 30px;
+    color: white;
+}
+.box4 li:hover{
+    color: orangered;
+    background-color: lightgrey;
+    border-left:2px solid orangered;
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.box {
+    width:  200px;
+    height: 200px;
+
+    border:  10px solid #000;
+    padding: 10px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.test {
+    width:  100%;
+    min-width: 1100px;
+    height: 10%;
+    background-color: red;
+}
+
+.wrap {
+    /*解决因inline-block产生的默认间距问题*/
+    font-size: 0;
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    background-color: orange;
+    /*overflow: hidden;*/
+    overflow: auto;
+    resize: both;
+}
+
+.wrap section {
+    width:  160px;
+    height: 160px;
+    /*设置元素显示方式*/
+    display: inline-block;
+    border-radius: 10px;
+    background-color: green;
+}
+.wrap .left {
+    background-color: blue;
+    margin-right: 20px;
+    margin-top: 100px;
+    overflow: auto;
+    /*水平方向可调整大小*/
+    resize: horizontal;
+}
+.wrap .right {
+    overflow: auto;
+    resize: vertical;
+    margin-left: 30px;
+    box-shadow: 0px 0px 3px 20px #000;
+}
+
+
+#border {
+    /*width:  100px;*/
+    /*height: 100px;*/
+    border-width: 50px;
+    border-color: red transparent blue transparent;
+    border-style: solid;
+}
+
+
+
+[title] {
+    width:  120px;
+    height: 200px;
+    background-color: cyan;
+
+    margin: 100px auto;
+
+    /*改变鼠标光标样式*/
+    cursor: pointer;
+
+    text-align: center;
+    line-height: 200px;
+    /*过渡效过*/
+    transition: all .25s linear;
+}
+
+[title]:hover {
+    /*沿着y轴向上位移2个像素*/
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 2px 2px #808080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

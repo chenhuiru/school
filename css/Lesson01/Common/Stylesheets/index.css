@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p{
+    /*设置字体大小*/
+    font-size: 36px;
+    letter-spacing: 6px;
+    /*设置字体样式*/
+    font-style: italic;
+    /*设置文本阴影*/
+    text-shadow: 5px 5px 2px red;
+}

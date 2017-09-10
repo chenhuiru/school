@@ -1,0 +1,43 @@
+@charset "UTF-8";
+header,article,.one-a,.one-banquan{
+    margin: 0 auto;
+}
+.two-one{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.two-two{
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: chocolate;
+}
+.jieshu{
+    width: 1200px;
+    height: 500px;
+    padding: 40px 0px;
+}
+.zhong1{
+    width: 700px;
+    height: 500px;
+    float: left;
+}
+.zhong2{
+    width: 400px;
+    height: 500px;
+    float: left;
+
+}
+h1{
+    font-size: 30px;
+    color: chocolate;
+}
+input{
+    margin: 10px;
+}
+p{
+    line-height: 40px;
+}

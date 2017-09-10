@@ -1,0 +1,123 @@
+@charset "UTF-8";
+header,article,.one-a,.one-banquan{
+    margin: 0 auto;
+}
+
+article{
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    margin: 40px auto;
+}
+h1{
+    width: 1200px;
+    height: 100px;
+    font-size: 40px;
+    color: forestgreen;
+    text-align: center;
+    line-height: 100px;
+}
+.kaiTou{
+    width: 1200px;
+    height: 250px;
+}
+.zhong1{
+    width: 600px;
+    height: 250px;
+    float: left;
+}
+.zhong2{
+    width: 600px;
+    height: 250px;
+    float: left;
+    text-align: center;
+}
+.zhongjian{
+    width: 1200px;
+    height: 700px;
+}
+.zhongjian-one{
+    width: 1200px;
+    height: 350px;
+}
+.zhongjian-two{
+    width: 600px;
+    height: 350px;
+}
+.zhong3{
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+.zhong4{
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+.zhong4 h5{
+    color: chocolate;
+    font-size: 20px;
+
+}
+.zhong4 ul a{
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 20px;
+    background-color: green;
+    line-height: 50px;
+}
+.xiamian{
+    width: 1200px;
+    height: 500px;
+}
+.xiamian-one{
+    width: 300px;
+    height: 300px;
+    background-color: #000fff;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+.xiamian-two{
+    width: 300px;
+    height: 300px;
+    background-color: #000fff;
+    border: 1px solid fuchsia;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+.xiamian-three{
+    width: 300px;
+    height: 300px;
+    background-color: #000fff;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+}
+.z{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    top:25px;
+    left: 25px;
+}
+.w{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:75px;
+    left: 75px;
+}
+
+
+
+
+

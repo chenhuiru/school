@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body,h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #d3d3d3;
+}
+.clearFloat{
+    zoom: 1;
+}
+.clearFloat:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}

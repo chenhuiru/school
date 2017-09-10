@@ -1,0 +1,107 @@
+@charset "UTF-8";
+.bubble{
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+    /*弹性布局垂直水平居中*/
+    display: flex;
+    display: -webkit-flex;
+    /*主轴*/
+    justify-content: center;
+    /*水平轴*/
+    align-items: center;
+    margin: 50px;
+
+    position: relative;
+}
+.bubble:before{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-width: 20px 15px 15px 15px;
+    border-color: blue transparent transparent transparent;
+    border-style: solid;
+
+    position: absolute;
+    top:100%;
+    left: 30%;
+}
+.bubble:after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-width: 20px 15px 15px 15px;
+    border-color: white transparent transparent transparent;
+    border-style: solid;
+
+    position: absolute;
+    /*加空格*/
+    top: calc(100% - 1px);
+    left: 30%;
+}
+.t1 p:first-of-type{
+    color: yellow;
+}
+.t1 div:nth-child(4){
+    letter-spacing: 10px;
+}
+.t1 p:nth-of-type(3){
+    color: deeppink;
+}
+.t1 h1:only-of-type{
+    color: green;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px;
+    /*transition: all .5s linear;*/
+    border: 1px solid green;
+    /*safary chrome*/
+    -webkit-transition: all .25s linear ;
+    /*火狐*/
+    -moz-transition: all .25s linear ;
+    /*ie*/
+    -ms-transition: all .25s linear ;
+    /*opear*/
+    -o-transition: all .25s linear ;
+    transition: all .25s linear ;
+}
+
+.box:hover{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    margin-left: 700px;
+}
+@keyframes myAnimation {
+    from{background: rebeccapurple}
+    20%{ width: 150px;height: 150px;background: yellowgreen }
+    80%{ width: 150px;height: 150px }
+    to{background: darkgray ;border-radius:50%;margin-left: 800px}
+}
+
+.animation{
+    width: 300px;
+    height: 300px;
+    background: orangered;
+    margin: 50px;
+
+    /*添加动画*/
+    /*animation-name: myAnimation;*/
+    /*animation-duration: 1s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-direction: alternate;*/
+    /*animation-fill-mode: forwards;*/
+    -webkit-animation: myAnimation 5s linear infinite alternate forwards;
+    -o-animation: myAnimation 5s linear infinite alternate forwards;
+    animation: myAnimation 5s linear infinite alternate forwards;
+}

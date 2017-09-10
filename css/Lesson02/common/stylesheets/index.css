@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*标签选择器*/
+#hello{
+    font-style: italic;
+}
+/*类选择器 点点*/
+.hello{
+    letter-spacing: 5px;
+}
+
+p.tittle{
+    color: aquamarine;
+}
+/*通用选择器 星号*/
+*{
+    font-size: 20px;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    color: blue;
+    background-color: beige;
+}
+/*后代选择器 空格*/
+.container section{
+    width: 400px;
+    height: 300px;
+    background-color: cadetblue;
+
+}
+.container p{
+    background-color: gold;
+}
+/*子类选择器 >*/
+.container>section{
+    border: 5px solid red;
+}
+.container section>p{
+    text-align: center;
+}
+/*ID选择器*/
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    /*设置圆角*/
+    border-radius: 50%;
+    /*过渡*/
+    transition: .25s margin-left;
+}
+/*伪类选择器*/
+#box:hover{
+    margin-left: 500px;
+}
+.IPT:focus{
+    border: 5px solid red;
+}
+.container:active{
+    background-color: gold;
+}
+
+/*群组选择器 逗号*/
+p,h1{
+    margin: 0;
+    padding: 0;
+}
+span,.t1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: red;
+}
+/*同级元素选择器 +下一个选择器 ~后面所有同级选择器*/
+.test>.f1+h5{
+    color: blueviolet;
+}
+
+.bigson+span{
+    color: blue;
+}
+.test .f2~h3,.f2~aside {
+    font-style: italic;
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*属性选择器*/
+[title]{
+    color: blue;
+    letter-spacing: 5px;
+}
+
+[title='x']{
+    font-size: 50px;
+}
+[title~='xhey']{
+    color: red;
+
+}
+[title *='e']{
+    color: yellow;
+}
+[title|='hot']{
+    color: red;
+}
+[title^='h']{
+    font-style: italic;
+}
+[title$='o']{
+    font-size: larger;
+}

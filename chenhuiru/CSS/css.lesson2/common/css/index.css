@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.picture{
+    position: relative;
+}
+.two{
+    position: absolute;
+    left: 5px;
+    top: 130px;
+    /*background-color: orangered;*/
+}
+.three{
+    position: absolute;
+    left: 495px;
+    top: 130px;
+    /*background-color: black;*/
+}
+.diandian{
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 220px;
+    top: 230px;
+    /*background-color: chartreuse;*/
+}
+.diandian .dian li{
+    padding: 2px;
+    list-style: none;
+    float: left;
+}
+.diandian .dian li div{
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    background-color: orange;
+}
+
+
+
+
+.en .en1{
+    width: 100px;
+    min-width: 1100px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+}
+
+.en .en1>li{
+    display: inline-block;
+    list-style: none;
+    background-color: black;
+    width: 160px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+}
+.en .en1>li a{
+    font-size: 18px;
+    color: darkgrey;
+
+}
+.en .en1>li a:hover{
+    color: orangered;
+}
+.en .en1>li:hover .en2{
+    display: block;
+}
+.en .en1>li:hover{
+    border-left: 2px solid orangered;
+    background-color: #1C1C1C;
+}
+.en .en2{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 70px;
+}
+.en .en2 li a{
+    font-size: 18px;
+    color: darkgrey;
+    border: 1px solid black;
+}
+.en .en2 li{
+    display:block;
+    background-color: black;
+    width:  160px;
+    height: 55px;
+    background-color: #0C0000;
+
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #303030;
+}
+
+.en .en2 li a{
+    color: orangered;
+    font-size: 18px;
+}
+
+.en .en2 li:hover{
+
+    background-color: #1C1C1C;
+}
+.en .en2 li:hover a{
+    color: #fff;
+}
+
+
+
+

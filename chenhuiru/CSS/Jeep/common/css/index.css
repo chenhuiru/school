@@ -1,0 +1,88 @@
+@charset "UTF-8";
+header,main{
+    min-width: 1100px;
+}
+header{
+    width: 100%;
+    height: 250px;
+    min-width: 1100px;
+    background: blue;
+    position: relative;
+}
+.titleBox{
+    width: 35%;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.titleBox h1,h3{
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: normal;
+}
+.titleBox h1{
+    /*width: 700px;*/
+    height: 100px;
+    background: green;
+    line-height: 100px;
+    border-bottom: 2px solid white;
+}
+.titleBox h3{
+    background: orange;
+    padding: 25px 0px;
+    font-weight: lighter;
+    font-size: 16px;
+    display: flex;
+    /*兼容safari*/
+    display: -webkit-flex;
+    /*交叉轴对齐方式*/
+
+    align-items: center;
+    /*主轴对齐方式*/
+    justify-content: center;
+}
+main{
+    height: 500px;
+    background-color: cornflowerblue;
+}
+main .content{
+    width: 999px;
+    height: 500px;
+    background: firebrick;
+    margin: 0 auto;
+    /*float: right; */
+}
+main .content .itemBox{
+    width: 333px;
+    height: 50%;
+    /*background-color: deeppink;*/
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: left;
+    background-size: cover !important;
+    /*float: right;*/
+}
+
+.content .itemBox:first-child{
+    background: url(../imgs/g1副本.png) no-repeat;
+}
+.content .itemBox:nth-child(2){
+
+}
+.content .itemBox:last-child{
+    width: calc(2 * 333px);
+}
+.mask{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.55);
+}
+.itemBox:hover .mask{
+    display: block;
+}

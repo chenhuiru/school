@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>显示与定位</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+<h1>一、元素显示方式 display</h1>
+
+<button class="btn1">隐藏元素</button>
+<button class="btn2">横向显示</button>
+<div class="wrap">
+    <div class="box first"></div>
+    <div class="box last"></div>
+</div>
+
+
+<div class="txt">
+    要隐藏元素，可以使用 display: none; 或 visibility: hidden;，但值得注意的是，将 visibility 的属性值设置为 hidden，元素虽然不可见了，但仍未脱离“文档流”，在页面显示中占据着原本的位置。而通过将 display 的属性值设置为 none ，元素不可见了，而且在页面中占据的位置也让与“文档流”内布局的其它元素了。通过这两个属性的这一特性，我们可以更加灵活地进行元素的显隐操作，以达到更理想的页面布局效果。
+</div>
+
+<article class="floatWrap clearFloate">
+    <section style="float: left;">1</section>
+    <section>2</section>
+    <section>3</section>
+    <section>4</section>
+</article>
+
+<nav>
+    <ul class="clearFloate">
+        <li>
+            <a href="javascript:;">新闻</a>
+        </li>
+        <li>
+            <a href="javascript:;">科技</a>
+        </li>
+        <li>
+            <a href="javascript:;">社会</a>
+        </li>
+        <li>
+            <a href="javascript:;">娱乐</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="pos">
+    <section class="p1"></section>
+    <section class="p2"></section>
+</div>
+
+
+
+
+</body>
+</html>

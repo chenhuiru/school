@@ -1,0 +1,132 @@
+@charset "UTF-8";
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+fl{float: left}
+fr{float: right}
+a{
+    text-decoration: none;
+}
+.clearFloat{
+    zoom: 1;
+}
+.clearFloat:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+header{
+    /*border: 1px solid black;*/
+    width: 1680px;
+    height: auto;
+    min-width: 1100px;
+    font-size: 0;
+    position: relative;
+    /*position: relative;*/
+}
+.one-en{
+    position: absolute;
+    left: 80px;
+}
+.one-en img{
+    width: 100px;
+    height: 120px;
+}
+.one-right{
+    width: 1680px;
+    height: 30px;
+    background-color: black;
+
+}
+.one-right p{
+    font-size: 20px;
+    color: white;
+    float: right;
+    padding-right: 150px;
+}
+.one-q{
+    width: 1680px;
+    height: 60px;
+
+}
+.one-q ul li{
+    width: 100px;
+    height: 40px;
+    /*border: 1px solid black;*/
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left: 1400px;*/
+}
+.one-w{
+    float: right;
+    padding-right: 170px;
+    padding-top: 15px;
+}
+.one-q ul li a{
+    color: #d2d2d2;
+    display: block;
+}
+.one-q ul li a:hover{
+    color: green;
+}
+.one-a{
+
+    background-color: black;
+    /*border: 1px solid black;*/
+    width: 1680px;
+    height: 200px;
+
+    text-align: center;
+    line-height: 28px;
+}
+.one-s{
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    width: 420px;
+    height: 200px;
+    float: left;
+    /*position: relative;*/
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+/*.one-f{*/
+
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform:translateX(-50%) translateY(-50%);*/
+/*}*/
+.one-f p{
+    color: white;
+    font-weight: bold;
+
+}
+.one-d li a{
+    color: #d2d2d2;
+}
+.one-banquan{
+    width: 1680px;
+    height: 120px;
+    background-color: black;
+    text-align: center;
+    line-height: 120px;
+    color: #d2d2d2;
+}
+footer{
+    box-sizing: border-box;
+    font-size: 0;
+}
+

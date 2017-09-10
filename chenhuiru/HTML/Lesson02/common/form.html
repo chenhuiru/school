@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <h1>注册</h1><p>
+        <form action="post" >
+            <label>账号：</label>
+            <input type="text" placeholder="请输入账号！" required>
+            <label>（必填）</label>
+            <p>
+            <label>密码：</label>
+            <input type="password" placeholder="请输入密码！" required>
+            <label>（必填）</label>
+            <p>
+            <label>性别：</label>
+            保密<input type="radio" name="gender">
+            男<input type="radio" name="gender" checked="checked">
+            女<input type="radio" name="gender" >
+            <label>（选填）</label>
+            <p>
+            <label>邮箱：</label>
+            <input type="email" placeholder="请输入邮箱地址！" >
+            <label>（选填）</label>
+            <p>
+            <label>电话：</label>
+            <input type="tel" placeholder="请输入联系电话！" >
+            <label>（必填）</label>
+            <p>
+            <select name="zhiye" id="">
+                <option value="0">--请选择职业--</option>
+                <option value="1">医生</option>
+                <option value="2">宇航员</option>
+                <option value="3">司机</option>
+            </select>
+            <p>
+            <input type="text"  placeholder="请输入或者选择您的城市" list="chengshi" size="25">
+            <datalist id="chengshi" >
+                <option >北京</option>
+                <option >上海</option>
+                <option >四川</option>
+                <option >山东</option>
+
+            </datalist>
+            <p>
+        <textarea name="kuabf"  cols="30" rows="6" maxlength="120" placeholder="输入您的个性签名不超过120字符"></textarea>
+        <p>
+        <fieldset  style="width: 370px;margin: 0 auto">
+            <legend>兴趣爱好</legend>
+        游泳<input type="checkbox" name="gender">
+        唱歌<input type="checkbox" name="gender1" checked="checked">
+        摄影<input type="checkbox" name="gender2" >
+        运动<input type="checkbox" name="gender3">
+        游戏<input type="checkbox" name="gender4">
+        撸代码<input type="checkbox" name="gender5" checked="checked">
+        </fieldset>
+        <p>
+            <button type="submit">注册</button>
+            <button type="reset">取消</button>
+
+        </form>
+    </div>
+</body>
+</html>

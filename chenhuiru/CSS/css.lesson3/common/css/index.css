@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.one{
+    width: 800px;
+    height: 700px;
+    /*background-color: orange;*/
+    margin: 0 auto;
+    background-image: url("../imgs/bg.jpeg");
+    background-repeat: no-repeat;
+}
+.one h3{
+    text-shadow: 2px 2px 2px #000;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+
+}
+/*hr{*/
+    /*background-color: black;*/
+/*}*/
+
+.jinse{
+    width: 380px;
+    height: 380px;
+    float: left;
+    /*border: 1px solid white;*/
+    text-align: center;
+    /*white-space: pre;*/
+    /*margin: 50px;*/
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+div.jinse2{
+   position: absolute;
+    top: 50px;
+    right: 0;
+    display: inline-block;
+    background: linear-gradient(transparent 99%,green 2%);
+    background-size: 100% 20%;
+}
+.wang2 span{
+    background-color: green;
+    display: inline-block;
+    background: linear-gradient(transparent 99%,green 2%);
+    background-size: 100% 20%;
+}
+.wang{
+    width: 380px;
+    height: 380px;
+    float: right;
+    /*border: 1px solid black;*/
+    text-align: center;
+    position: relative;
+    /*background: linear-gradient(transparent 99%,green 2%);*/
+    /*background-size: 100% 20%;*/
+}
+.wang2{
+    /*border: 1px solid black;*/
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: linear-gradient(transparent 99%,green 2%);
+    background-size: 100% 20%;
+}
+.jinse span{
+    /*background-color: black;*/
+    letter-spacing: 6px;
+    display: block;
+    font-size: 15px;
+}
+.wang span{
+    letter-spacing: 6px;
+    display: block;
+}
+.two{
+    display: inline-block;
+    line-height: 30px;
+    padding: 15px;
+}
+.cssc756c511019ecb{
+    font-family:'LiDeBiao-Xing3c756c511019ecb';
+}
+video{
+    display: none;
+}
+

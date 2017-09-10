@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+.left,.right,.center{
+    background-color: aliceblue;
+}
+
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+
+#title{
+    /*字符间距*/
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 5px 5px 2px #ccccff;
+    font-size: 50px;
+
+}
+.wrap{
+    width: 200px;
+    height: 200px;
+    background-color: #ccccff;
+    /*水平居中*/
+    text-align: center;
+    /*垂直居中*/
+    line-height: 200px;
+}
+
+.text{
+    width: 600px;
+    height: 30px;
+    /*solid 实线*/
+    border: 1px solid #000000;
+    overflow: hidden;
+    white-space: pre;
+    text-overflow: ellipsis;
+}
+[title='test']{
+    text-indent: 2em;
+    font: 20px/50px '宋体';
+
+}
+/*自定义字体*/
+@font-face {
+    font-family: '华文行楷';
+    /*../为返回上一级*/
+    src: url('../fonts/华文行楷.ttf');
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 377927 */
+    src: url('//at.alicdn.com/t/font_xh6iy27adhx5hfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_xh6iy27adhx5hfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_xh6iy27adhx5hfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_xh6iy27adhx5hfr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: iconfont;
+    font-size: 36px;
+}
+.iconfont:hover{
+    color:red;
+}

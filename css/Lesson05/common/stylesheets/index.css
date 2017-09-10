@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.box{
+    width: 160px;
+    height: 160px;
+    background-color: red;
+    margin: 20px;
+}
+.last{
+    background-color: blue;
+}
+
+.btn1:hover~.wrap>.first{
+    /*1,通过元素显示方式隐藏元素*/
+    /*display: none;*/
+    /*2,通过元素可见性设置隐藏元素*/
+    /*visibility: hidden;*/
+    /*3,通过元素不透明度设置隐藏元素*/
+    opacity:0;
+
+}
+.btn1,.btn2:hover {
+    cursor: crosshair;
+}
+
+.btn2:hover~.wrap>.box{
+    display: inline-block;
+}
+
+.txt{
+    width: 300px;
+    height: 400px;
+    background-color: cornflowerblue;
+    /*垂直居中*/
+    /*方法一 弹性布局*/
+    /*display: flex;*/
+    /*默认主轴为横向*/
+    /*设置交叉轴对齐方式*/
+    /*align-items: center;*/
+
+    /*方法二*/
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.floatWrap{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.floatWrap section{
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+
+    float:left;
+
+}
+
+ul li{
+    background-color: cornflowerblue;
+    width:100px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: orange;
+}
+
+ul li a{
+    color: #ffffff;
+}
+
+nav{
+    margin: 100px;
+}
+
+.first{
+    /*!相对定位!*/
+    /*position: relative;*/
+    /*bottom: 10px;*/
+    /*left: 50px;*/
+}
+.pos{
+    border: 1px solid #000000;
+    width: 800px;
+    height: 500px;
+    margin: 100px;
+    /*position: relative;*/
+    position: absolute;
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /*修改覆盖层级关系z-index，需结合position 最大值在上方显示*/
+    z-index: 2;
+}
+.p2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    z-index: 1;
+}

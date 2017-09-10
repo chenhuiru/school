@@ -1,0 +1,23 @@
+@charset "UTF-8";
+header,article,.one-a,.one-banquan{
+    margin: 0 auto;
+}
+article{
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    /*background-color: #000fff;*/
+    margin: 40px auto;
+}
+h1{
+    width: 1200px;
+    height: 100px;
+    font-size: 40px;
+    color: forestgreen;
+    text-align: center;
+    line-height: 100px;
+}
+img{
+    margin: 20px 30px;
+    padding-left: 30px;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+header,article,footer{
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.cleanFloat{
+    zoom: 1;
+}
+.cleanFloat:after{
+    content: '';
+    display: block;
+    height: auto;
+    visibility: hidden;
+    clear: both;
+}

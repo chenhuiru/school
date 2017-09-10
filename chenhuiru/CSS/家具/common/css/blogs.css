@@ -1,0 +1,63 @@
+@charset "UTF-8";
+header,article,.one-a,.one-banquan{
+    margin: 0 auto;
+}
+
+.boke-one{
+    width: 1680px;
+    height: auto;
+    /*background-color: black;*/
+    margin: 0 auto;
+}
+.boke-two{
+    width: 1200px;
+    height: auto;
+    /*background-color: rebeccapurple;*/
+    margin: 0 auto;
+}
+/*.boke-two{*/
+    /*width: 1200px;*/
+    /*height: 100px;*/
+    /*background-color: yellowgreen;*/
+    /*line-height: 100px;*/
+    /*color: forestgreen;*/
+    /*font-size: 60px;*/
+    /*font-style: normal;*/
+/*}*/
+.a{
+    width: 1200px;
+    height: 420px;
+    /*background-color: orangered;*/
+    border-bottom: 1px solid black;
+    /*text-align:center;*/
+    margin-top: 20px;
+}
+/*.top-one{*/
+    /*font-size: 40px;*/
+    /*color: chocolate;*/
+/*}*/
+/*.top-two{*/
+    /*font-size: 5px;*/
+    /*color: #d2d2d2;*/
+/*}*/
+.center{
+    width: 700px;
+    height: 260px;
+    float: left;
+    /*background-color: yellow;*/
+}
+.top{
+    float: left;
+    /*background-color: cornflowerblue;*/
+}
+.center a{
+    width: 100px;
+    height: 30px;
+    /*background-color: forestgreen;*/
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.top-q ul li{
+    float: left;
+}
