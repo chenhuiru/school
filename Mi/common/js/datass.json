@@ -1,0 +1,208 @@
+{
+  "singleItem":[
+    {
+      "img": "5.1.png",
+      "type": "小米note 2",
+      "title": "最高减600元",
+      "price": "2499元"
+    },
+    {
+      "img": "5.2.png",
+      "type": "红米 note5 高配版",
+      "title": "1600万像素柔光自拍",
+      "price": "899元"
+    },
+    {
+      "img": "5.3.png",
+      "type": "红米4X",
+      "title": "4100mAh超长续航，8核处理器",
+      "price": "699元起"
+    },
+    {
+      "img": "5.4.png",
+      "type": "小米电视4A 43英寸",
+      "title": "全高清HDR，智能语音",
+      "price": "1999元"
+    },
+    {
+      "img": "5.5.png",
+      "type": "小米笔记本",
+      "title": "更轻更薄，像杂志一样随身携带",
+      "price": "3599元起"
+    },
+    {
+      "img": "5.6.png",
+      "type": "贝医生巴氏牙刷(四色装)",
+      "title": "德日进口刷毛，专利科学布局",
+      "price": "39.9元"
+    },
+    {
+      "img": "5.7.png",
+      "type": "小米手环 2",
+      "title": "OLED 显示屏幕，升级计步算法",
+      "price": "149元"
+    },
+
+    {
+      "img": "5.8.jpg",
+      "type": "米家压力IH电饭煲 ",
+      "title": "智能烹饪，压力IH加热技术",
+      "price": "999元"
+    },
+    {
+      "img": "5.9.png",
+      "type": "米家空气净化器Pro",
+      "title": "OLED显示屏幕，激光颗粒物传感器",
+      "price": "1499元"
+    },
+    {
+      "img": "5.10.png",
+      "type": "小米路由器3",
+      "title": "更快更强，不止四天线",
+      "price": "149元"
+    }
+  ],
+  "homeAppliances":[
+    {
+
+      "privilege":"享受9.2折",
+      "title":"小米电视4A 32",
+      "introduce":"64位四核处理器／1GB+4GB大内存",
+      "price":"1099",
+      "del":"1199",
+      "hideInfo":"本来说要寄回家的，下单忘了换地址！很不错的电视，小米...",
+      "author": "来自于 浪逸 的评价"
+    },
+
+    {
+      "privilege":"享受9折",
+      "title":"小米电视4 55英寸",
+      "introduce":"4.9mm极超薄机身／4K高清HDR",
+      "price":"3999",
+      "del":"4499",
+      "hideInfo":"这款小米电视还不错，挺漂亮的，画面清晰，系统流畅，还...",
+      "author":"来自于 加载中 的评价"
+    },
+    {
+      "privilege":"新品",
+      "title":"小米笔记本Pro 15.6英寸",
+      "introduce":"全金属强化机身/FHD全贴合屏幕",
+      "price":"5599",
+      "del":"",
+      "hideInfo":"人生中第一台笔记本电脑还是小米第一次给你了来首诗吧",
+      "author":"来自于 北京★路狼 的评价"
+    },
+    {
+      "privilege":"",
+      "title":"小米笔记本Air 13.3 i7处理器",
+      "introduce":"Intel酷睿i7处理器，8GB内存+256GB",
+      "price":"5999",
+      "del":"",
+      "hideInfo":"超级好超赞，超级米粉支持小米",
+      "author":" 来自于 高人 的评价 "
+    },
+    {
+      "privilege":"免费邮费",
+      "title":"小米路由器3C",
+      "introduce":"APP智能控制，安全防蹭网",
+      "price":"89",
+      "del":"99",
+      "hideInfo":"超帅气的外表 快递超快 没有一点点防备 就被送上了 ...",
+      "author":" 来自于 659417029 的评价 "
+    },
+    {
+      "privilege":"新品",
+      "title":"小米移动电源2C 20000mAh",
+      "introduce":"",
+      "price":"129",
+      "del":"",
+      "hideInfo":"比我用的第一代20000毫安的轻了，也能快充了，很不...",
+      "author":"来自于 1179189545 的评价 "
+    },
+    {
+      "privilege":"新品",
+      "title":"米家电水壶",
+      "introduce":"一杯水，是一家人的安心",
+      "price":"99",
+      "del":"",
+      "hideInfo":"不错，价格相比有点贵，不过喜欢收藏小米的产品。",
+      "author":"来自于 1181533160 的评价 "
+    },
+    {
+      "name":"小白摄像机",
+      "price":"370元",
+      "whiteimg":""
+    },
+    {
+      "name":"浏览更多",
+      "hotdoor":"热门"
+    }
+
+  ],
+  "intellect":[
+    {
+      "privilege":"新品",
+      "title":"70迈智能后视镜",
+      "introduce":"ADAS高级驾辅，1080P行车记录",
+      "price":"1299",
+      "del":"",
+      "hideInfo":"不错，功能很实用",
+      "author":" 来自于 小屁孩119 的评价 "
+    },
+    {
+      "privilege":"享9折 ",
+      "title":"小米体脂秤",
+      "introduce":"简约纤薄，隐藏式 LED 显示屏",
+      "price":"179",
+      "del":"199",
+      "hideInfo":"入手体脂称…准备好好减肥了",
+      "author":" 来自于 陶杨 的评价 "
+    },
+    {
+      "privilege":"",
+      "title":"小方摄像机",
+      "introduce":"1080P 好清晰，看家看娃看宠物",
+      "price":"129",
+      "del":"",
+      "hideInfo":"客服妹子，你出来我保证不打你，上午9点下单，下午2:...",
+      "author":" 来自于 MI小秋 的评"
+    },
+    {
+      "privilege":"",
+      "title":"米家IH电饭煲 3L",
+      "introduce":"IH 电磁环绕加热，3000+ 煮米方案",
+      "price":"399",
+      "del":"",
+      "hideInfo":"外形美观，做工精良，功能齐全，能制作各种美食，已联入...",
+      "author":" 来自于 滴角始方 的评价 "
+    },
+    {
+      "privilege":"享8折",
+      "title":"Yeelight床头灯",
+      "introduce":"触摸式操作体验，给卧室1600万种颜色",
+      "price":"199",
+      "del":"249",
+      "hideInfo":"一个人独自欣赏，多希望有人相伴，客服妹子你说呢",
+      "author":" 来自于 树叶下的风 的评价 "
+    },
+    {
+      "privilege":"新品",
+      "title":"米家小相机",
+      "introduce":"清晰捕捉美好瞬间",
+      "price":"699",
+      "del":"",
+      "hideInfo":"小巧玲珑，功能多多，很赞！",
+      "author":" 来自于 韵黎露 的评价 "
+    }
+  , {
+      "privilege":"新品",
+      "title":"小米路由器HD（8TB）",
+      "introduce":"全新一代智能家庭中心",
+      "price":"3699",
+      "del":"",
+      "hideInfo":"硬盘声音很响，不知道是否正常",
+      "author":" 来自于 137564930 的评价 "
+    }
+  ]
+
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body{
+    margin: 50px auto;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+}
+h1{
+    font-weight: normal;
+}
+form{
+    width: 370px;
+    height: 450px;
+    background-color: white;
+    text-align: left;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+form p{
+    font-size: 15px;
+    color: gray;
+}
+form select:first-of-type{
+    width: 370px;
+    height: 40px;
+    background-color: white;
+    border-radius: 0;
+}
+form select:last-of-type{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+}
+form input:first-of-type{
+    display: inline-block;
+    width: 295px;
+    height: 40px;
+    background-color: white;
+}
+form input:last-of-type{
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+}
+form div{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background: url("../imgs/bigtap-mitu-faild.png") no-repeat;
+    background-size: cover;
+}
+form button{
+    width: 370px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin: 20px 0 ;
+}
+form a{
+    color: black;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body, ul, li, nav, h3, p { margin: 0; padding: 0;}
+a  { text-decoration: none; }
+ul { list-style: none; }
+
+.fl { float: left; }
+.fr { float: right; }
+.clearFloat { zoom: 1; }
+.clearFloat:after {
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}

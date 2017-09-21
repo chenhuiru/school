@@ -1,0 +1,28 @@
+{
+  "infos": [
+    {
+      "title":"雷军与斯塔克打造全面屏2.0",
+      "subTitle":"一场关于小米MIX 2 极致工艺的巅峰对话",
+      "imgName":"1.jpg",
+      "bgImgName": "1_bg.jpg"
+    },
+    {
+      "title":"小米Note 3 与吴亦凡",
+      "subTitle":"看看小米Note 3 与吴亦凡谁更帅？",
+      "imgName":"2.jpg",
+      "bgImgName":"2_bg.png"
+    },
+    {
+      "title":"MIUI 9 理念视频",
+      "subTitle":"快如闪电，前所未有的流畅",
+      "imgName":"3.jpg",
+      "bgImgName":"3_bg.jpg"
+    },
+    {
+      "title":"拍人更美的背后故事",
+      "subTitle":"小米手机工程师采访视频",
+      "imgName":"4.jpg",
+      "bgImgName":"4_bg.jpg"
+    }
+  ]
+}
